@@ -1,0 +1,1567 @@
+{
+  "dataset_size": 112,
+  "train_size": 56,
+  "test_size": 56,
+  "split": "held-out scenario families",
+  "results": {
+    "rules": {
+      "category_accuracy": 0.14285714285714285,
+      "severity_macro_f1": 0.15,
+      "critical_recall": 0.0,
+      "critical_precision": 0.0,
+      "routing_accuracy": 0.2857142857142857,
+      "severity_confusion_labels": [
+        "P0",
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "severity_confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          24
+        ],
+        [
+          0,
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          0,
+          24
+        ]
+      ]
+    },
+    "classifier": {
+      "category_accuracy": 0.2857142857142857,
+      "severity_macro_f1": 0.016129032258064516,
+      "critical_recall": 0.9583333333333334,
+      "critical_precision": 0.46938775510204084,
+      "routing_accuracy": 0.35714285714285715,
+      "severity_confusion_labels": [
+        "P0",
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "severity_confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          23,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          0,
+          5
+        ],
+        [
+          22,
+          1,
+          0,
+          1
+        ]
+      ]
+    },
+    "hybrid": {
+      "category_accuracy": 0.2857142857142857,
+      "severity_macro_f1": 0.016129032258064516,
+      "critical_recall": 0.9583333333333334,
+      "critical_precision": 0.46938775510204084,
+      "routing_accuracy": 0.35714285714285715,
+      "severity_confusion_labels": [
+        "P0",
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "severity_confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          23,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          0,
+          5
+        ],
+        [
+          22,
+          1,
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  "errors": [
+    {
+      "mode": "rules",
+      "id": "case-005",
+      "text": "Enterprise customer reports: An intruder took over a customer workspace and exported its secrets.",
+      "expected_category": "Security",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-006",
+      "text": "Small business reports: An intruder took over a customer workspace and exported its secrets.",
+      "expected_category": "Security",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-007",
+      "text": "Individual user reports: An intruder took over a customer workspace and exported its secrets.",
+      "expected_category": "Security",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-008",
+      "text": "Support agent reports: An intruder took over a customer workspace and exported its secrets.",
+      "expected_category": "Security",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-013",
+      "text": "Enterprise customer reports: Someone used a session token without authorization.",
+      "expected_category": "Security",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-014",
+      "text": "Small business reports: Someone used a session token without authorization.",
+      "expected_category": "Security",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-015",
+      "text": "Individual user reports: Someone used a session token without authorization.",
+      "expected_category": "Security",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-016",
+      "text": "Support agent reports: Someone used a session token without authorization.",
+      "expected_category": "Security",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-021",
+      "text": "Enterprise customer reports: A response included another patient\u2019s medical history.",
+      "expected_category": "Privacy",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-022",
+      "text": "Small business reports: A response included another patient\u2019s medical history.",
+      "expected_category": "Privacy",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-023",
+      "text": "Individual user reports: A response included another patient\u2019s medical history.",
+      "expected_category": "Privacy",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-024",
+      "text": "Support agent reports: A response included another patient\u2019s medical history.",
+      "expected_category": "Privacy",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-029",
+      "text": "Enterprise customer reports: A user can view someone else\u2019s address and date of birth.",
+      "expected_category": "Privacy",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-030",
+      "text": "Small business reports: A user can view someone else\u2019s address and date of birth.",
+      "expected_category": "Privacy",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-031",
+      "text": "Individual user reports: A user can view someone else\u2019s address and date of birth.",
+      "expected_category": "Privacy",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-032",
+      "text": "Support agent reports: A user can view someone else\u2019s address and date of birth.",
+      "expected_category": "Privacy",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-037",
+      "text": "Enterprise customer reports: A response encourages a vulnerable person to end their life.",
+      "expected_category": "AI Safety",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-038",
+      "text": "Small business reports: A response encourages a vulnerable person to end their life.",
+      "expected_category": "AI Safety",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-039",
+      "text": "Individual user reports: A response encourages a vulnerable person to end their life.",
+      "expected_category": "AI Safety",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-040",
+      "text": "Support agent reports: A response encourages a vulnerable person to end their life.",
+      "expected_category": "AI Safety",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-045",
+      "text": "Enterprise customer reports: The model coached a user on making an explosive device.",
+      "expected_category": "AI Safety",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-046",
+      "text": "Small business reports: The model coached a user on making an explosive device.",
+      "expected_category": "AI Safety",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-047",
+      "text": "Individual user reports: The model coached a user on making an explosive device.",
+      "expected_category": "AI Safety",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-048",
+      "text": "Support agent reports: The model coached a user on making an explosive device.",
+      "expected_category": "AI Safety",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-053",
+      "text": "Enterprise customer reports: Requests fail intermittently during document processing.",
+      "expected_category": "Reliability",
+      "predicted_category": "Other",
+      "expected_severity": "P2",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-054",
+      "text": "Small business reports: Requests fail intermittently during document processing.",
+      "expected_category": "Reliability",
+      "predicted_category": "Other",
+      "expected_severity": "P2",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-055",
+      "text": "Individual user reports: Requests fail intermittently during document processing.",
+      "expected_category": "Reliability",
+      "predicted_category": "Other",
+      "expected_severity": "P2",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-056",
+      "text": "Support agent reports: Requests fail intermittently during document processing.",
+      "expected_category": "Reliability",
+      "predicted_category": "Other",
+      "expected_severity": "P2",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-061",
+      "text": "Enterprise customer reports: Every request has stopped completing across our entire organization.",
+      "expected_category": "Reliability",
+      "predicted_category": "Other",
+      "expected_severity": "P2",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-062",
+      "text": "Small business reports: Every request has stopped completing across our entire organization.",
+      "expected_category": "Reliability",
+      "predicted_category": "Other",
+      "expected_severity": "P2",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-063",
+      "text": "Individual user reports: Every request has stopped completing across our entire organization.",
+      "expected_category": "Reliability",
+      "predicted_category": "Other",
+      "expected_severity": "P2",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-064",
+      "text": "Support agent reports: Every request has stopped completing across our entire organization.",
+      "expected_category": "Reliability",
+      "predicted_category": "Other",
+      "expected_severity": "P2",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-069",
+      "text": "Enterprise customer reports: The sign-in verification code never arrives.",
+      "expected_category": "Account",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-070",
+      "text": "Small business reports: The sign-in verification code never arrives.",
+      "expected_category": "Account",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-071",
+      "text": "Individual user reports: The sign-in verification code never arrives.",
+      "expected_category": "Account",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-072",
+      "text": "Support agent reports: The sign-in verification code never arrives.",
+      "expected_category": "Account",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-077",
+      "text": "Enterprise customer reports: A new teammate cannot join our workspace.",
+      "expected_category": "Account",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-078",
+      "text": "Small business reports: A new teammate cannot join our workspace.",
+      "expected_category": "Account",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-079",
+      "text": "Individual user reports: A new teammate cannot join our workspace.",
+      "expected_category": "Account",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-080",
+      "text": "Support agent reports: A new teammate cannot join our workspace.",
+      "expected_category": "Account",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-085",
+      "text": "Enterprise customer reports: Subscription renewal debited the card two times.",
+      "expected_category": "Billing",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-086",
+      "text": "Small business reports: Subscription renewal debited the card two times.",
+      "expected_category": "Billing",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-087",
+      "text": "Individual user reports: Subscription renewal debited the card two times.",
+      "expected_category": "Billing",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-088",
+      "text": "Support agent reports: Subscription renewal debited the card two times.",
+      "expected_category": "Billing",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-093",
+      "text": "Enterprise customer reports: We need a receipt for last month\u2019s subscription.",
+      "expected_category": "Billing",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-094",
+      "text": "Small business reports: We need a receipt for last month\u2019s subscription.",
+      "expected_category": "Billing",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-095",
+      "text": "Individual user reports: We need a receipt for last month\u2019s subscription.",
+      "expected_category": "Billing",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "rules",
+      "id": "case-096",
+      "text": "Support agent reports: We need a receipt for last month\u2019s subscription.",
+      "expected_category": "Billing",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-005",
+      "text": "Enterprise customer reports: An intruder took over a customer workspace and exported its secrets.",
+      "expected_category": "Security",
+      "predicted_category": "Reliability",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-006",
+      "text": "Small business reports: An intruder took over a customer workspace and exported its secrets.",
+      "expected_category": "Security",
+      "predicted_category": "Reliability",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-007",
+      "text": "Individual user reports: An intruder took over a customer workspace and exported its secrets.",
+      "expected_category": "Security",
+      "predicted_category": "Reliability",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-008",
+      "text": "Support agent reports: An intruder took over a customer workspace and exported its secrets.",
+      "expected_category": "Security",
+      "predicted_category": "Reliability",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-013",
+      "text": "Enterprise customer reports: Someone used a session token without authorization.",
+      "expected_category": "Security",
+      "predicted_category": "Security",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-014",
+      "text": "Small business reports: Someone used a session token without authorization.",
+      "expected_category": "Security",
+      "predicted_category": "Security",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-015",
+      "text": "Individual user reports: Someone used a session token without authorization.",
+      "expected_category": "Security",
+      "predicted_category": "Security",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-016",
+      "text": "Support agent reports: Someone used a session token without authorization.",
+      "expected_category": "Security",
+      "predicted_category": "Security",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-021",
+      "text": "Enterprise customer reports: A response included another patient\u2019s medical history.",
+      "expected_category": "Privacy",
+      "predicted_category": "Privacy",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-022",
+      "text": "Small business reports: A response included another patient\u2019s medical history.",
+      "expected_category": "Privacy",
+      "predicted_category": "Privacy",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-023",
+      "text": "Individual user reports: A response included another patient\u2019s medical history.",
+      "expected_category": "Privacy",
+      "predicted_category": "Privacy",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-024",
+      "text": "Support agent reports: A response included another patient\u2019s medical history.",
+      "expected_category": "Privacy",
+      "predicted_category": "Privacy",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-029",
+      "text": "Enterprise customer reports: A user can view someone else\u2019s address and date of birth.",
+      "expected_category": "Privacy",
+      "predicted_category": "Reliability",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-030",
+      "text": "Small business reports: A user can view someone else\u2019s address and date of birth.",
+      "expected_category": "Privacy",
+      "predicted_category": "Reliability",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-031",
+      "text": "Individual user reports: A user can view someone else\u2019s address and date of birth.",
+      "expected_category": "Privacy",
+      "predicted_category": "Reliability",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-032",
+      "text": "Support agent reports: A user can view someone else\u2019s address and date of birth.",
+      "expected_category": "Privacy",
+      "predicted_category": "Reliability",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-037",
+      "text": "Enterprise customer reports: A response encourages a vulnerable person to end their life.",
+      "expected_category": "AI Safety",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-038",
+      "text": "Small business reports: A response encourages a vulnerable person to end their life.",
+      "expected_category": "AI Safety",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-039",
+      "text": "Individual user reports: A response encourages a vulnerable person to end their life.",
+      "expected_category": "AI Safety",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-040",
+      "text": "Support agent reports: A response encourages a vulnerable person to end their life.",
+      "expected_category": "AI Safety",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-045",
+      "text": "Enterprise customer reports: The model coached a user on making an explosive device.",
+      "expected_category": "AI Safety",
+      "predicted_category": "AI Safety",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-046",
+      "text": "Small business reports: The model coached a user on making an explosive device.",
+      "expected_category": "AI Safety",
+      "predicted_category": "AI Safety",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-047",
+      "text": "Individual user reports: The model coached a user on making an explosive device.",
+      "expected_category": "AI Safety",
+      "predicted_category": "AI Safety",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-048",
+      "text": "Support agent reports: The model coached a user on making an explosive device.",
+      "expected_category": "AI Safety",
+      "predicted_category": "AI Safety",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-053",
+      "text": "Enterprise customer reports: Requests fail intermittently during document processing.",
+      "expected_category": "Reliability",
+      "predicted_category": "Billing",
+      "expected_severity": "P2",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-054",
+      "text": "Small business reports: Requests fail intermittently during document processing.",
+      "expected_category": "Reliability",
+      "predicted_category": "Billing",
+      "expected_severity": "P2",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-055",
+      "text": "Individual user reports: Requests fail intermittently during document processing.",
+      "expected_category": "Reliability",
+      "predicted_category": "Billing",
+      "expected_severity": "P2",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-056",
+      "text": "Support agent reports: Requests fail intermittently during document processing.",
+      "expected_category": "Reliability",
+      "predicted_category": "Billing",
+      "expected_severity": "P2",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-061",
+      "text": "Enterprise customer reports: Every request has stopped completing across our entire organization.",
+      "expected_category": "Reliability",
+      "predicted_category": "Other",
+      "expected_severity": "P2",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-062",
+      "text": "Small business reports: Every request has stopped completing across our entire organization.",
+      "expected_category": "Reliability",
+      "predicted_category": "Other",
+      "expected_severity": "P2",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-063",
+      "text": "Individual user reports: Every request has stopped completing across our entire organization.",
+      "expected_category": "Reliability",
+      "predicted_category": "Other",
+      "expected_severity": "P2",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-064",
+      "text": "Support agent reports: Every request has stopped completing across our entire organization.",
+      "expected_category": "Reliability",
+      "predicted_category": "Other",
+      "expected_severity": "P2",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-069",
+      "text": "Enterprise customer reports: The sign-in verification code never arrives.",
+      "expected_category": "Account",
+      "predicted_category": "AI Safety",
+      "expected_severity": "P3",
+      "predicted_severity": "P1"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-070",
+      "text": "Small business reports: The sign-in verification code never arrives.",
+      "expected_category": "Account",
+      "predicted_category": "AI Safety",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-071",
+      "text": "Individual user reports: The sign-in verification code never arrives.",
+      "expected_category": "Account",
+      "predicted_category": "AI Safety",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-072",
+      "text": "Support agent reports: The sign-in verification code never arrives.",
+      "expected_category": "Account",
+      "predicted_category": "AI Safety",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-077",
+      "text": "Enterprise customer reports: A new teammate cannot join our workspace.",
+      "expected_category": "Account",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-078",
+      "text": "Small business reports: A new teammate cannot join our workspace.",
+      "expected_category": "Account",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-079",
+      "text": "Individual user reports: A new teammate cannot join our workspace.",
+      "expected_category": "Account",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-080",
+      "text": "Support agent reports: A new teammate cannot join our workspace.",
+      "expected_category": "Account",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-085",
+      "text": "Enterprise customer reports: Subscription renewal debited the card two times.",
+      "expected_category": "Billing",
+      "predicted_category": "AI Safety",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-086",
+      "text": "Small business reports: Subscription renewal debited the card two times.",
+      "expected_category": "Billing",
+      "predicted_category": "AI Safety",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-087",
+      "text": "Individual user reports: Subscription renewal debited the card two times.",
+      "expected_category": "Billing",
+      "predicted_category": "AI Safety",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-088",
+      "text": "Support agent reports: Subscription renewal debited the card two times.",
+      "expected_category": "Billing",
+      "predicted_category": "AI Safety",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-093",
+      "text": "Enterprise customer reports: We need a receipt for last month\u2019s subscription.",
+      "expected_category": "Billing",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-094",
+      "text": "Small business reports: We need a receipt for last month\u2019s subscription.",
+      "expected_category": "Billing",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-095",
+      "text": "Individual user reports: We need a receipt for last month\u2019s subscription.",
+      "expected_category": "Billing",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-096",
+      "text": "Support agent reports: We need a receipt for last month\u2019s subscription.",
+      "expected_category": "Billing",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-101",
+      "text": "Enterprise customer reports: Can you provide a tutorial for our new team?",
+      "expected_category": "Other",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-102",
+      "text": "Small business reports: Can you provide a tutorial for our new team?",
+      "expected_category": "Other",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-103",
+      "text": "Individual user reports: Can you provide a tutorial for our new team?",
+      "expected_category": "Other",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-104",
+      "text": "Support agent reports: Can you provide a tutorial for our new team?",
+      "expected_category": "Other",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-109",
+      "text": "Enterprise customer reports: What export formats are supported?",
+      "expected_category": "Other",
+      "predicted_category": "Security",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-110",
+      "text": "Small business reports: What export formats are supported?",
+      "expected_category": "Other",
+      "predicted_category": "Security",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-111",
+      "text": "Individual user reports: What export formats are supported?",
+      "expected_category": "Other",
+      "predicted_category": "Security",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "classifier",
+      "id": "case-112",
+      "text": "Support agent reports: What export formats are supported?",
+      "expected_category": "Other",
+      "predicted_category": "Security",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-005",
+      "text": "Enterprise customer reports: An intruder took over a customer workspace and exported its secrets.",
+      "expected_category": "Security",
+      "predicted_category": "Reliability",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-006",
+      "text": "Small business reports: An intruder took over a customer workspace and exported its secrets.",
+      "expected_category": "Security",
+      "predicted_category": "Reliability",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-007",
+      "text": "Individual user reports: An intruder took over a customer workspace and exported its secrets.",
+      "expected_category": "Security",
+      "predicted_category": "Reliability",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-008",
+      "text": "Support agent reports: An intruder took over a customer workspace and exported its secrets.",
+      "expected_category": "Security",
+      "predicted_category": "Reliability",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-013",
+      "text": "Enterprise customer reports: Someone used a session token without authorization.",
+      "expected_category": "Security",
+      "predicted_category": "Security",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-014",
+      "text": "Small business reports: Someone used a session token without authorization.",
+      "expected_category": "Security",
+      "predicted_category": "Security",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-015",
+      "text": "Individual user reports: Someone used a session token without authorization.",
+      "expected_category": "Security",
+      "predicted_category": "Security",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-016",
+      "text": "Support agent reports: Someone used a session token without authorization.",
+      "expected_category": "Security",
+      "predicted_category": "Security",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-021",
+      "text": "Enterprise customer reports: A response included another patient\u2019s medical history.",
+      "expected_category": "Privacy",
+      "predicted_category": "Privacy",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-022",
+      "text": "Small business reports: A response included another patient\u2019s medical history.",
+      "expected_category": "Privacy",
+      "predicted_category": "Privacy",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-023",
+      "text": "Individual user reports: A response included another patient\u2019s medical history.",
+      "expected_category": "Privacy",
+      "predicted_category": "Privacy",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-024",
+      "text": "Support agent reports: A response included another patient\u2019s medical history.",
+      "expected_category": "Privacy",
+      "predicted_category": "Privacy",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-029",
+      "text": "Enterprise customer reports: A user can view someone else\u2019s address and date of birth.",
+      "expected_category": "Privacy",
+      "predicted_category": "Reliability",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-030",
+      "text": "Small business reports: A user can view someone else\u2019s address and date of birth.",
+      "expected_category": "Privacy",
+      "predicted_category": "Reliability",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-031",
+      "text": "Individual user reports: A user can view someone else\u2019s address and date of birth.",
+      "expected_category": "Privacy",
+      "predicted_category": "Reliability",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-032",
+      "text": "Support agent reports: A user can view someone else\u2019s address and date of birth.",
+      "expected_category": "Privacy",
+      "predicted_category": "Reliability",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-037",
+      "text": "Enterprise customer reports: A response encourages a vulnerable person to end their life.",
+      "expected_category": "AI Safety",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-038",
+      "text": "Small business reports: A response encourages a vulnerable person to end their life.",
+      "expected_category": "AI Safety",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-039",
+      "text": "Individual user reports: A response encourages a vulnerable person to end their life.",
+      "expected_category": "AI Safety",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-040",
+      "text": "Support agent reports: A response encourages a vulnerable person to end their life.",
+      "expected_category": "AI Safety",
+      "predicted_category": "Other",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-045",
+      "text": "Enterprise customer reports: The model coached a user on making an explosive device.",
+      "expected_category": "AI Safety",
+      "predicted_category": "AI Safety",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-046",
+      "text": "Small business reports: The model coached a user on making an explosive device.",
+      "expected_category": "AI Safety",
+      "predicted_category": "AI Safety",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-047",
+      "text": "Individual user reports: The model coached a user on making an explosive device.",
+      "expected_category": "AI Safety",
+      "predicted_category": "AI Safety",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-048",
+      "text": "Support agent reports: The model coached a user on making an explosive device.",
+      "expected_category": "AI Safety",
+      "predicted_category": "AI Safety",
+      "expected_severity": "P1",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-053",
+      "text": "Enterprise customer reports: Requests fail intermittently during document processing.",
+      "expected_category": "Reliability",
+      "predicted_category": "Billing",
+      "expected_severity": "P2",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-054",
+      "text": "Small business reports: Requests fail intermittently during document processing.",
+      "expected_category": "Reliability",
+      "predicted_category": "Billing",
+      "expected_severity": "P2",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-055",
+      "text": "Individual user reports: Requests fail intermittently during document processing.",
+      "expected_category": "Reliability",
+      "predicted_category": "Billing",
+      "expected_severity": "P2",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-056",
+      "text": "Support agent reports: Requests fail intermittently during document processing.",
+      "expected_category": "Reliability",
+      "predicted_category": "Billing",
+      "expected_severity": "P2",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-061",
+      "text": "Enterprise customer reports: Every request has stopped completing across our entire organization.",
+      "expected_category": "Reliability",
+      "predicted_category": "Other",
+      "expected_severity": "P2",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-062",
+      "text": "Small business reports: Every request has stopped completing across our entire organization.",
+      "expected_category": "Reliability",
+      "predicted_category": "Other",
+      "expected_severity": "P2",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-063",
+      "text": "Individual user reports: Every request has stopped completing across our entire organization.",
+      "expected_category": "Reliability",
+      "predicted_category": "Other",
+      "expected_severity": "P2",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-064",
+      "text": "Support agent reports: Every request has stopped completing across our entire organization.",
+      "expected_category": "Reliability",
+      "predicted_category": "Other",
+      "expected_severity": "P2",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-069",
+      "text": "Enterprise customer reports: The sign-in verification code never arrives.",
+      "expected_category": "Account",
+      "predicted_category": "AI Safety",
+      "expected_severity": "P3",
+      "predicted_severity": "P1"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-070",
+      "text": "Small business reports: The sign-in verification code never arrives.",
+      "expected_category": "Account",
+      "predicted_category": "AI Safety",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-071",
+      "text": "Individual user reports: The sign-in verification code never arrives.",
+      "expected_category": "Account",
+      "predicted_category": "AI Safety",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-072",
+      "text": "Support agent reports: The sign-in verification code never arrives.",
+      "expected_category": "Account",
+      "predicted_category": "AI Safety",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-077",
+      "text": "Enterprise customer reports: A new teammate cannot join our workspace.",
+      "expected_category": "Account",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P3"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-078",
+      "text": "Small business reports: A new teammate cannot join our workspace.",
+      "expected_category": "Account",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-079",
+      "text": "Individual user reports: A new teammate cannot join our workspace.",
+      "expected_category": "Account",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-080",
+      "text": "Support agent reports: A new teammate cannot join our workspace.",
+      "expected_category": "Account",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-085",
+      "text": "Enterprise customer reports: Subscription renewal debited the card two times.",
+      "expected_category": "Billing",
+      "predicted_category": "AI Safety",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-086",
+      "text": "Small business reports: Subscription renewal debited the card two times.",
+      "expected_category": "Billing",
+      "predicted_category": "AI Safety",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-087",
+      "text": "Individual user reports: Subscription renewal debited the card two times.",
+      "expected_category": "Billing",
+      "predicted_category": "AI Safety",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-088",
+      "text": "Support agent reports: Subscription renewal debited the card two times.",
+      "expected_category": "Billing",
+      "predicted_category": "AI Safety",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-093",
+      "text": "Enterprise customer reports: We need a receipt for last month\u2019s subscription.",
+      "expected_category": "Billing",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-094",
+      "text": "Small business reports: We need a receipt for last month\u2019s subscription.",
+      "expected_category": "Billing",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-095",
+      "text": "Individual user reports: We need a receipt for last month\u2019s subscription.",
+      "expected_category": "Billing",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-096",
+      "text": "Support agent reports: We need a receipt for last month\u2019s subscription.",
+      "expected_category": "Billing",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-101",
+      "text": "Enterprise customer reports: Can you provide a tutorial for our new team?",
+      "expected_category": "Other",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-102",
+      "text": "Small business reports: Can you provide a tutorial for our new team?",
+      "expected_category": "Other",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-103",
+      "text": "Individual user reports: Can you provide a tutorial for our new team?",
+      "expected_category": "Other",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-104",
+      "text": "Support agent reports: Can you provide a tutorial for our new team?",
+      "expected_category": "Other",
+      "predicted_category": "Other",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-109",
+      "text": "Enterprise customer reports: What export formats are supported?",
+      "expected_category": "Other",
+      "predicted_category": "Security",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-110",
+      "text": "Small business reports: What export formats are supported?",
+      "expected_category": "Other",
+      "predicted_category": "Security",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-111",
+      "text": "Individual user reports: What export formats are supported?",
+      "expected_category": "Other",
+      "predicted_category": "Security",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    },
+    {
+      "mode": "hybrid",
+      "id": "case-112",
+      "text": "Support agent reports: What export formats are supported?",
+      "expected_category": "Other",
+      "predicted_category": "Security",
+      "expected_severity": "P3",
+      "predicted_severity": "P0"
+    }
+  ]
+}

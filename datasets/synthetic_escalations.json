@@ -1,0 +1,898 @@
+[
+  {
+    "id": "case-001",
+    "family": "Security-0",
+    "split": "train",
+    "text": "Enterprise customer reports: Stolen credentials are being used to download customer files.",
+    "category": "Security",
+    "severity": "P1"
+  },
+  {
+    "id": "case-002",
+    "family": "Security-0",
+    "split": "train",
+    "text": "Small business reports: Stolen credentials are being used to download customer files.",
+    "category": "Security",
+    "severity": "P1"
+  },
+  {
+    "id": "case-003",
+    "family": "Security-0",
+    "split": "train",
+    "text": "Individual user reports: Stolen credentials are being used to download customer files.",
+    "category": "Security",
+    "severity": "P1"
+  },
+  {
+    "id": "case-004",
+    "family": "Security-0",
+    "split": "train",
+    "text": "Support agent reports: Stolen credentials are being used to download customer files.",
+    "category": "Security",
+    "severity": "P1"
+  },
+  {
+    "id": "case-005",
+    "family": "Security-1",
+    "split": "test",
+    "text": "Enterprise customer reports: An intruder took over a customer workspace and exported its secrets.",
+    "category": "Security",
+    "severity": "P1"
+  },
+  {
+    "id": "case-006",
+    "family": "Security-1",
+    "split": "test",
+    "text": "Small business reports: An intruder took over a customer workspace and exported its secrets.",
+    "category": "Security",
+    "severity": "P1"
+  },
+  {
+    "id": "case-007",
+    "family": "Security-1",
+    "split": "test",
+    "text": "Individual user reports: An intruder took over a customer workspace and exported its secrets.",
+    "category": "Security",
+    "severity": "P1"
+  },
+  {
+    "id": "case-008",
+    "family": "Security-1",
+    "split": "test",
+    "text": "Support agent reports: An intruder took over a customer workspace and exported its secrets.",
+    "category": "Security",
+    "severity": "P1"
+  },
+  {
+    "id": "case-009",
+    "family": "Security-2",
+    "split": "train",
+    "text": "Enterprise customer reports: Ongoing breach affects all customers with stolen tokens.",
+    "category": "Security",
+    "severity": "P0"
+  },
+  {
+    "id": "case-010",
+    "family": "Security-2",
+    "split": "train",
+    "text": "Small business reports: Ongoing breach affects all customers with stolen tokens.",
+    "category": "Security",
+    "severity": "P0"
+  },
+  {
+    "id": "case-011",
+    "family": "Security-2",
+    "split": "train",
+    "text": "Individual user reports: Ongoing breach affects all customers with stolen tokens.",
+    "category": "Security",
+    "severity": "P0"
+  },
+  {
+    "id": "case-012",
+    "family": "Security-2",
+    "split": "train",
+    "text": "Support agent reports: Ongoing breach affects all customers with stolen tokens.",
+    "category": "Security",
+    "severity": "P0"
+  },
+  {
+    "id": "case-013",
+    "family": "Security-3",
+    "split": "test",
+    "text": "Enterprise customer reports: Someone used a session token without authorization.",
+    "category": "Security",
+    "severity": "P1"
+  },
+  {
+    "id": "case-014",
+    "family": "Security-3",
+    "split": "test",
+    "text": "Small business reports: Someone used a session token without authorization.",
+    "category": "Security",
+    "severity": "P1"
+  },
+  {
+    "id": "case-015",
+    "family": "Security-3",
+    "split": "test",
+    "text": "Individual user reports: Someone used a session token without authorization.",
+    "category": "Security",
+    "severity": "P1"
+  },
+  {
+    "id": "case-016",
+    "family": "Security-3",
+    "split": "test",
+    "text": "Support agent reports: Someone used a session token without authorization.",
+    "category": "Security",
+    "severity": "P1"
+  },
+  {
+    "id": "case-017",
+    "family": "Privacy-0",
+    "split": "train",
+    "text": "Enterprise customer reports: Private personal data was disclosed in another account.",
+    "category": "Privacy",
+    "severity": "P1"
+  },
+  {
+    "id": "case-018",
+    "family": "Privacy-0",
+    "split": "train",
+    "text": "Small business reports: Private personal data was disclosed in another account.",
+    "category": "Privacy",
+    "severity": "P1"
+  },
+  {
+    "id": "case-019",
+    "family": "Privacy-0",
+    "split": "train",
+    "text": "Individual user reports: Private personal data was disclosed in another account.",
+    "category": "Privacy",
+    "severity": "P1"
+  },
+  {
+    "id": "case-020",
+    "family": "Privacy-0",
+    "split": "train",
+    "text": "Support agent reports: Private personal data was disclosed in another account.",
+    "category": "Privacy",
+    "severity": "P1"
+  },
+  {
+    "id": "case-021",
+    "family": "Privacy-1",
+    "split": "test",
+    "text": "Enterprise customer reports: A response included another patient’s medical history.",
+    "category": "Privacy",
+    "severity": "P1"
+  },
+  {
+    "id": "case-022",
+    "family": "Privacy-1",
+    "split": "test",
+    "text": "Small business reports: A response included another patient’s medical history.",
+    "category": "Privacy",
+    "severity": "P1"
+  },
+  {
+    "id": "case-023",
+    "family": "Privacy-1",
+    "split": "test",
+    "text": "Individual user reports: A response included another patient’s medical history.",
+    "category": "Privacy",
+    "severity": "P1"
+  },
+  {
+    "id": "case-024",
+    "family": "Privacy-1",
+    "split": "test",
+    "text": "Support agent reports: A response included another patient’s medical history.",
+    "category": "Privacy",
+    "severity": "P1"
+  },
+  {
+    "id": "case-025",
+    "family": "Privacy-2",
+    "split": "train",
+    "text": "Enterprise customer reports: Sensitive PII is appearing for all customers.",
+    "category": "Privacy",
+    "severity": "P0"
+  },
+  {
+    "id": "case-026",
+    "family": "Privacy-2",
+    "split": "train",
+    "text": "Small business reports: Sensitive PII is appearing for all customers.",
+    "category": "Privacy",
+    "severity": "P0"
+  },
+  {
+    "id": "case-027",
+    "family": "Privacy-2",
+    "split": "train",
+    "text": "Individual user reports: Sensitive PII is appearing for all customers.",
+    "category": "Privacy",
+    "severity": "P0"
+  },
+  {
+    "id": "case-028",
+    "family": "Privacy-2",
+    "split": "train",
+    "text": "Support agent reports: Sensitive PII is appearing for all customers.",
+    "category": "Privacy",
+    "severity": "P0"
+  },
+  {
+    "id": "case-029",
+    "family": "Privacy-3",
+    "split": "test",
+    "text": "Enterprise customer reports: A user can view someone else’s address and date of birth.",
+    "category": "Privacy",
+    "severity": "P1"
+  },
+  {
+    "id": "case-030",
+    "family": "Privacy-3",
+    "split": "test",
+    "text": "Small business reports: A user can view someone else’s address and date of birth.",
+    "category": "Privacy",
+    "severity": "P1"
+  },
+  {
+    "id": "case-031",
+    "family": "Privacy-3",
+    "split": "test",
+    "text": "Individual user reports: A user can view someone else’s address and date of birth.",
+    "category": "Privacy",
+    "severity": "P1"
+  },
+  {
+    "id": "case-032",
+    "family": "Privacy-3",
+    "split": "test",
+    "text": "Support agent reports: A user can view someone else’s address and date of birth.",
+    "category": "Privacy",
+    "severity": "P1"
+  },
+  {
+    "id": "case-033",
+    "family": "AI Safety-0",
+    "split": "train",
+    "text": "Enterprise customer reports: The assistant gave dangerous weapon instructions.",
+    "category": "AI Safety",
+    "severity": "P1"
+  },
+  {
+    "id": "case-034",
+    "family": "AI Safety-0",
+    "split": "train",
+    "text": "Small business reports: The assistant gave dangerous weapon instructions.",
+    "category": "AI Safety",
+    "severity": "P1"
+  },
+  {
+    "id": "case-035",
+    "family": "AI Safety-0",
+    "split": "train",
+    "text": "Individual user reports: The assistant gave dangerous weapon instructions.",
+    "category": "AI Safety",
+    "severity": "P1"
+  },
+  {
+    "id": "case-036",
+    "family": "AI Safety-0",
+    "split": "train",
+    "text": "Support agent reports: The assistant gave dangerous weapon instructions.",
+    "category": "AI Safety",
+    "severity": "P1"
+  },
+  {
+    "id": "case-037",
+    "family": "AI Safety-1",
+    "split": "test",
+    "text": "Enterprise customer reports: A response encourages a vulnerable person to end their life.",
+    "category": "AI Safety",
+    "severity": "P1"
+  },
+  {
+    "id": "case-038",
+    "family": "AI Safety-1",
+    "split": "test",
+    "text": "Small business reports: A response encourages a vulnerable person to end their life.",
+    "category": "AI Safety",
+    "severity": "P1"
+  },
+  {
+    "id": "case-039",
+    "family": "AI Safety-1",
+    "split": "test",
+    "text": "Individual user reports: A response encourages a vulnerable person to end their life.",
+    "category": "AI Safety",
+    "severity": "P1"
+  },
+  {
+    "id": "case-040",
+    "family": "AI Safety-1",
+    "split": "test",
+    "text": "Support agent reports: A response encourages a vulnerable person to end their life.",
+    "category": "AI Safety",
+    "severity": "P1"
+  },
+  {
+    "id": "case-041",
+    "family": "AI Safety-2",
+    "split": "train",
+    "text": "Enterprise customer reports: Harmful self-harm advice presents immediate danger.",
+    "category": "AI Safety",
+    "severity": "P0"
+  },
+  {
+    "id": "case-042",
+    "family": "AI Safety-2",
+    "split": "train",
+    "text": "Small business reports: Harmful self-harm advice presents immediate danger.",
+    "category": "AI Safety",
+    "severity": "P0"
+  },
+  {
+    "id": "case-043",
+    "family": "AI Safety-2",
+    "split": "train",
+    "text": "Individual user reports: Harmful self-harm advice presents immediate danger.",
+    "category": "AI Safety",
+    "severity": "P0"
+  },
+  {
+    "id": "case-044",
+    "family": "AI Safety-2",
+    "split": "train",
+    "text": "Support agent reports: Harmful self-harm advice presents immediate danger.",
+    "category": "AI Safety",
+    "severity": "P0"
+  },
+  {
+    "id": "case-045",
+    "family": "AI Safety-3",
+    "split": "test",
+    "text": "Enterprise customer reports: The model coached a user on making an explosive device.",
+    "category": "AI Safety",
+    "severity": "P1"
+  },
+  {
+    "id": "case-046",
+    "family": "AI Safety-3",
+    "split": "test",
+    "text": "Small business reports: The model coached a user on making an explosive device.",
+    "category": "AI Safety",
+    "severity": "P1"
+  },
+  {
+    "id": "case-047",
+    "family": "AI Safety-3",
+    "split": "test",
+    "text": "Individual user reports: The model coached a user on making an explosive device.",
+    "category": "AI Safety",
+    "severity": "P1"
+  },
+  {
+    "id": "case-048",
+    "family": "AI Safety-3",
+    "split": "test",
+    "text": "Support agent reports: The model coached a user on making an explosive device.",
+    "category": "AI Safety",
+    "severity": "P1"
+  },
+  {
+    "id": "case-049",
+    "family": "Reliability-0",
+    "split": "train",
+    "text": "Enterprise customer reports: API timeout and 500 errors cause an outage.",
+    "category": "Reliability",
+    "severity": "P2"
+  },
+  {
+    "id": "case-050",
+    "family": "Reliability-0",
+    "split": "train",
+    "text": "Small business reports: API timeout and 500 errors cause an outage.",
+    "category": "Reliability",
+    "severity": "P2"
+  },
+  {
+    "id": "case-051",
+    "family": "Reliability-0",
+    "split": "train",
+    "text": "Individual user reports: API timeout and 500 errors cause an outage.",
+    "category": "Reliability",
+    "severity": "P2"
+  },
+  {
+    "id": "case-052",
+    "family": "Reliability-0",
+    "split": "train",
+    "text": "Support agent reports: API timeout and 500 errors cause an outage.",
+    "category": "Reliability",
+    "severity": "P2"
+  },
+  {
+    "id": "case-053",
+    "family": "Reliability-1",
+    "split": "test",
+    "text": "Enterprise customer reports: Requests fail intermittently during document processing.",
+    "category": "Reliability",
+    "severity": "P2"
+  },
+  {
+    "id": "case-054",
+    "family": "Reliability-1",
+    "split": "test",
+    "text": "Small business reports: Requests fail intermittently during document processing.",
+    "category": "Reliability",
+    "severity": "P2"
+  },
+  {
+    "id": "case-055",
+    "family": "Reliability-1",
+    "split": "test",
+    "text": "Individual user reports: Requests fail intermittently during document processing.",
+    "category": "Reliability",
+    "severity": "P2"
+  },
+  {
+    "id": "case-056",
+    "family": "Reliability-1",
+    "split": "test",
+    "text": "Support agent reports: Requests fail intermittently during document processing.",
+    "category": "Reliability",
+    "severity": "P2"
+  },
+  {
+    "id": "case-057",
+    "family": "Reliability-2",
+    "split": "train",
+    "text": "Enterprise customer reports: Widespread outage: all customers report the service unavailable.",
+    "category": "Reliability",
+    "severity": "P0"
+  },
+  {
+    "id": "case-058",
+    "family": "Reliability-2",
+    "split": "train",
+    "text": "Small business reports: Widespread outage: all customers report the service unavailable.",
+    "category": "Reliability",
+    "severity": "P0"
+  },
+  {
+    "id": "case-059",
+    "family": "Reliability-2",
+    "split": "train",
+    "text": "Individual user reports: Widespread outage: all customers report the service unavailable.",
+    "category": "Reliability",
+    "severity": "P0"
+  },
+  {
+    "id": "case-060",
+    "family": "Reliability-2",
+    "split": "train",
+    "text": "Support agent reports: Widespread outage: all customers report the service unavailable.",
+    "category": "Reliability",
+    "severity": "P0"
+  },
+  {
+    "id": "case-061",
+    "family": "Reliability-3",
+    "split": "test",
+    "text": "Enterprise customer reports: Every request has stopped completing across our entire organization.",
+    "category": "Reliability",
+    "severity": "P2"
+  },
+  {
+    "id": "case-062",
+    "family": "Reliability-3",
+    "split": "test",
+    "text": "Small business reports: Every request has stopped completing across our entire organization.",
+    "category": "Reliability",
+    "severity": "P2"
+  },
+  {
+    "id": "case-063",
+    "family": "Reliability-3",
+    "split": "test",
+    "text": "Individual user reports: Every request has stopped completing across our entire organization.",
+    "category": "Reliability",
+    "severity": "P2"
+  },
+  {
+    "id": "case-064",
+    "family": "Reliability-3",
+    "split": "test",
+    "text": "Support agent reports: Every request has stopped completing across our entire organization.",
+    "category": "Reliability",
+    "severity": "P2"
+  },
+  {
+    "id": "case-065",
+    "family": "Account-0",
+    "split": "train",
+    "text": "Enterprise customer reports: Login is locked after a password reset.",
+    "category": "Account",
+    "severity": "P3"
+  },
+  {
+    "id": "case-066",
+    "family": "Account-0",
+    "split": "train",
+    "text": "Small business reports: Login is locked after a password reset.",
+    "category": "Account",
+    "severity": "P3"
+  },
+  {
+    "id": "case-067",
+    "family": "Account-0",
+    "split": "train",
+    "text": "Individual user reports: Login is locked after a password reset.",
+    "category": "Account",
+    "severity": "P3"
+  },
+  {
+    "id": "case-068",
+    "family": "Account-0",
+    "split": "train",
+    "text": "Support agent reports: Login is locked after a password reset.",
+    "category": "Account",
+    "severity": "P3"
+  },
+  {
+    "id": "case-069",
+    "family": "Account-1",
+    "split": "test",
+    "text": "Enterprise customer reports: The sign-in verification code never arrives.",
+    "category": "Account",
+    "severity": "P3"
+  },
+  {
+    "id": "case-070",
+    "family": "Account-1",
+    "split": "test",
+    "text": "Small business reports: The sign-in verification code never arrives.",
+    "category": "Account",
+    "severity": "P3"
+  },
+  {
+    "id": "case-071",
+    "family": "Account-1",
+    "split": "test",
+    "text": "Individual user reports: The sign-in verification code never arrives.",
+    "category": "Account",
+    "severity": "P3"
+  },
+  {
+    "id": "case-072",
+    "family": "Account-1",
+    "split": "test",
+    "text": "Support agent reports: The sign-in verification code never arrives.",
+    "category": "Account",
+    "severity": "P3"
+  },
+  {
+    "id": "case-073",
+    "family": "Account-2",
+    "split": "train",
+    "text": "Enterprise customer reports: Password reset blocked for all customers.",
+    "category": "Account",
+    "severity": "P0"
+  },
+  {
+    "id": "case-074",
+    "family": "Account-2",
+    "split": "train",
+    "text": "Small business reports: Password reset blocked for all customers.",
+    "category": "Account",
+    "severity": "P0"
+  },
+  {
+    "id": "case-075",
+    "family": "Account-2",
+    "split": "train",
+    "text": "Individual user reports: Password reset blocked for all customers.",
+    "category": "Account",
+    "severity": "P0"
+  },
+  {
+    "id": "case-076",
+    "family": "Account-2",
+    "split": "train",
+    "text": "Support agent reports: Password reset blocked for all customers.",
+    "category": "Account",
+    "severity": "P0"
+  },
+  {
+    "id": "case-077",
+    "family": "Account-3",
+    "split": "test",
+    "text": "Enterprise customer reports: A new teammate cannot join our workspace.",
+    "category": "Account",
+    "severity": "P3"
+  },
+  {
+    "id": "case-078",
+    "family": "Account-3",
+    "split": "test",
+    "text": "Small business reports: A new teammate cannot join our workspace.",
+    "category": "Account",
+    "severity": "P3"
+  },
+  {
+    "id": "case-079",
+    "family": "Account-3",
+    "split": "test",
+    "text": "Individual user reports: A new teammate cannot join our workspace.",
+    "category": "Account",
+    "severity": "P3"
+  },
+  {
+    "id": "case-080",
+    "family": "Account-3",
+    "split": "test",
+    "text": "Support agent reports: A new teammate cannot join our workspace.",
+    "category": "Account",
+    "severity": "P3"
+  },
+  {
+    "id": "case-081",
+    "family": "Billing-0",
+    "split": "train",
+    "text": "Enterprise customer reports: Invoice charged twice; customer requests a refund.",
+    "category": "Billing",
+    "severity": "P3"
+  },
+  {
+    "id": "case-082",
+    "family": "Billing-0",
+    "split": "train",
+    "text": "Small business reports: Invoice charged twice; customer requests a refund.",
+    "category": "Billing",
+    "severity": "P3"
+  },
+  {
+    "id": "case-083",
+    "family": "Billing-0",
+    "split": "train",
+    "text": "Individual user reports: Invoice charged twice; customer requests a refund.",
+    "category": "Billing",
+    "severity": "P3"
+  },
+  {
+    "id": "case-084",
+    "family": "Billing-0",
+    "split": "train",
+    "text": "Support agent reports: Invoice charged twice; customer requests a refund.",
+    "category": "Billing",
+    "severity": "P3"
+  },
+  {
+    "id": "case-085",
+    "family": "Billing-1",
+    "split": "test",
+    "text": "Enterprise customer reports: Subscription renewal debited the card two times.",
+    "category": "Billing",
+    "severity": "P3"
+  },
+  {
+    "id": "case-086",
+    "family": "Billing-1",
+    "split": "test",
+    "text": "Small business reports: Subscription renewal debited the card two times.",
+    "category": "Billing",
+    "severity": "P3"
+  },
+  {
+    "id": "case-087",
+    "family": "Billing-1",
+    "split": "test",
+    "text": "Individual user reports: Subscription renewal debited the card two times.",
+    "category": "Billing",
+    "severity": "P3"
+  },
+  {
+    "id": "case-088",
+    "family": "Billing-1",
+    "split": "test",
+    "text": "Support agent reports: Subscription renewal debited the card two times.",
+    "category": "Billing",
+    "severity": "P3"
+  },
+  {
+    "id": "case-089",
+    "family": "Billing-2",
+    "split": "train",
+    "text": "Enterprise customer reports: Payment charged incorrectly for all customers.",
+    "category": "Billing",
+    "severity": "P0"
+  },
+  {
+    "id": "case-090",
+    "family": "Billing-2",
+    "split": "train",
+    "text": "Small business reports: Payment charged incorrectly for all customers.",
+    "category": "Billing",
+    "severity": "P0"
+  },
+  {
+    "id": "case-091",
+    "family": "Billing-2",
+    "split": "train",
+    "text": "Individual user reports: Payment charged incorrectly for all customers.",
+    "category": "Billing",
+    "severity": "P0"
+  },
+  {
+    "id": "case-092",
+    "family": "Billing-2",
+    "split": "train",
+    "text": "Support agent reports: Payment charged incorrectly for all customers.",
+    "category": "Billing",
+    "severity": "P0"
+  },
+  {
+    "id": "case-093",
+    "family": "Billing-3",
+    "split": "test",
+    "text": "Enterprise customer reports: We need a receipt for last month’s subscription.",
+    "category": "Billing",
+    "severity": "P3"
+  },
+  {
+    "id": "case-094",
+    "family": "Billing-3",
+    "split": "test",
+    "text": "Small business reports: We need a receipt for last month’s subscription.",
+    "category": "Billing",
+    "severity": "P3"
+  },
+  {
+    "id": "case-095",
+    "family": "Billing-3",
+    "split": "test",
+    "text": "Individual user reports: We need a receipt for last month’s subscription.",
+    "category": "Billing",
+    "severity": "P3"
+  },
+  {
+    "id": "case-096",
+    "family": "Billing-3",
+    "split": "test",
+    "text": "Support agent reports: We need a receipt for last month’s subscription.",
+    "category": "Billing",
+    "severity": "P3"
+  },
+  {
+    "id": "case-097",
+    "family": "Other-0",
+    "split": "train",
+    "text": "Enterprise customer reports: Please explain the available language options.",
+    "category": "Other",
+    "severity": "P3"
+  },
+  {
+    "id": "case-098",
+    "family": "Other-0",
+    "split": "train",
+    "text": "Small business reports: Please explain the available language options.",
+    "category": "Other",
+    "severity": "P3"
+  },
+  {
+    "id": "case-099",
+    "family": "Other-0",
+    "split": "train",
+    "text": "Individual user reports: Please explain the available language options.",
+    "category": "Other",
+    "severity": "P3"
+  },
+  {
+    "id": "case-100",
+    "family": "Other-0",
+    "split": "train",
+    "text": "Support agent reports: Please explain the available language options.",
+    "category": "Other",
+    "severity": "P3"
+  },
+  {
+    "id": "case-101",
+    "family": "Other-1",
+    "split": "test",
+    "text": "Enterprise customer reports: Can you provide a tutorial for our new team?",
+    "category": "Other",
+    "severity": "P3"
+  },
+  {
+    "id": "case-102",
+    "family": "Other-1",
+    "split": "test",
+    "text": "Small business reports: Can you provide a tutorial for our new team?",
+    "category": "Other",
+    "severity": "P3"
+  },
+  {
+    "id": "case-103",
+    "family": "Other-1",
+    "split": "test",
+    "text": "Individual user reports: Can you provide a tutorial for our new team?",
+    "category": "Other",
+    "severity": "P3"
+  },
+  {
+    "id": "case-104",
+    "family": "Other-1",
+    "split": "test",
+    "text": "Support agent reports: Can you provide a tutorial for our new team?",
+    "category": "Other",
+    "severity": "P3"
+  },
+  {
+    "id": "case-105",
+    "family": "Other-2",
+    "split": "train",
+    "text": "Enterprise customer reports: We would like to request a new integration.",
+    "category": "Other",
+    "severity": "P3"
+  },
+  {
+    "id": "case-106",
+    "family": "Other-2",
+    "split": "train",
+    "text": "Small business reports: We would like to request a new integration.",
+    "category": "Other",
+    "severity": "P3"
+  },
+  {
+    "id": "case-107",
+    "family": "Other-2",
+    "split": "train",
+    "text": "Individual user reports: We would like to request a new integration.",
+    "category": "Other",
+    "severity": "P3"
+  },
+  {
+    "id": "case-108",
+    "family": "Other-2",
+    "split": "train",
+    "text": "Support agent reports: We would like to request a new integration.",
+    "category": "Other",
+    "severity": "P3"
+  },
+  {
+    "id": "case-109",
+    "family": "Other-3",
+    "split": "test",
+    "text": "Enterprise customer reports: What export formats are supported?",
+    "category": "Other",
+    "severity": "P3"
+  },
+  {
+    "id": "case-110",
+    "family": "Other-3",
+    "split": "test",
+    "text": "Small business reports: What export formats are supported?",
+    "category": "Other",
+    "severity": "P3"
+  },
+  {
+    "id": "case-111",
+    "family": "Other-3",
+    "split": "test",
+    "text": "Individual user reports: What export formats are supported?",
+    "category": "Other",
+    "severity": "P3"
+  },
+  {
+    "id": "case-112",
+    "family": "Other-3",
+    "split": "test",
+    "text": "Support agent reports: What export formats are supported?",
+    "category": "Other",
+    "severity": "P3"
+  }
+]
