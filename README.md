@@ -70,11 +70,11 @@ The UI uses rules only. The supervised classifier and hybrid are benchmark exper
 
 See [architecture decisions](docs/architecture.md) and [threat model](docs/threat-model.md).
 
-## Interview discussion
+## Dislaimer:
 
-“I built an incident triage application that turns customer reports into reviewable severity and routing recommendations. I also evaluated failure modes on held-out scenario families. The baseline missed paraphrases and the learned model over-escalated, which gave me a concrete roadmap for data quality, safety guardrails, and human oversight.”
+I built an incident triage application that turns customer reports into reviewable severity and routing recommendations. I also evaluated failure modes on held-out scenario families. The baseline missed paraphrases and the learned model over-escalated, which gave me a concrete roadmap for data quality, safety guardrails, and human oversight.
 
-This is an independent project. It contains no Apple or other employer data, internal procedures, proprietary code or confidential incidents, and implies no company affiliation.
+This is an independent project. It contains no sensitive data from any company, internal procedures, proprietary code or confidential incidents, and implies no company affiliation.
 
 ## Next milestones
 
